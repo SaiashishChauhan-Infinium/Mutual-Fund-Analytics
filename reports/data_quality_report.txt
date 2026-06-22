@@ -1,0 +1,64 @@
+Mutual Fund Analytics Capstone
+
+Day 1 – Data Quality Report
+
+Datasets Analysed
+
+1. 01_fund_master.csv
+2. 02_nav_history.csv
+
+Dataset Summary
+
+Fund Master Dataset
+
+* Total Records: 40
+* Total Columns: 15
+
+NAV History Dataset
+
+* Total Records: 46,000
+* Total Columns: 3
+
+Category Distribution
+
+* Equity Funds: 34
+* Debt Funds: 6
+
+Risk Category Distribution
+
+* Moderate: 16
+* High: 8
+* Very High: 6
+* Low: 6
+* Moderately High: 4
+
+Data Quality Checks
+
+Missing Value Analysis
+
+* fund_master.csv: 0 missing values
+* nav_history.csv: 0 missing values
+
+Duplicate Record Analysis
+
+* fund_master.csv: 0 duplicate rows
+* nav_history.csv: 0 duplicate rows
+
+AMFI Code Validation
+
+* Total AMFI Codes in fund_master: 40
+* Total AMFI Codes matched in nav_history: 40
+* Missing Codes: 0
+
+Observations
+
+* Equity funds represent 85% of the schemes in the dataset.
+* Debt funds represent 15% of the schemes in the dataset.
+* Most schemes belong to the Moderate risk category.
+* All AMFI codes from fund_master are present in nav_history.
+* No missing values or duplicate records were identified.
+
+Conclusion
+The data ingestion process was completed successfully. All datasets passed basic quality validation checks, 
+including missing value analysis, duplicate record analysis, and AMFI code validation. 
+The datasets are ready for further exploratory analysis, SQL processing, and dashboard development.
